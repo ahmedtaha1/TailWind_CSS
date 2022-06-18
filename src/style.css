@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link {
+  @apply px-5 hover:text-yellow-400;
+}
+.time {
+  @apply relative before:content-[''] before:w-3 before:h-full before:bg-black before:absolute before:-left-14;
+}
+.circler {
+  @apply w-20 h-20 rounded-full bg-black absolute -left-24 text-white flex justify-center items-center font-bold;
+}
